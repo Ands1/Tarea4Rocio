@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body class="bindex">
+  <nav>
+    <li class="Automoviles"><%= link_to 'Automoviles', automoviles_path%>
+    <li class= "Conductores"><%= link_to 'Conductures', conductores_path%>
+  </nav>
+  <section class="section">
+    <div class="container">
+      <h1 class="principal">
+      Esta es mi página en donde encontratarás lo que he aprendido en Lomax <br>
+      </h1>
+        <div class="cont_img">
+            <%= image_tag("lomax.png", :alt => "rss feed") %>
+        </div>
+
+    </div>
+        <div class = "contenedor_sub">
+            <p class="subtitle"> <br>
+                ¡Mi primera página web con Bulma! <br>
+                Con la ayuda de las charlas, he aprendido como crear Scaffolds, hacer conexión de la base de datos don DBeaver, editar tablas, darle estilos a una página web con Bulma y Sass.
+            </p>
+        </div>
+
+    
+
+
+    <div class="contenedor_texto">
+        <div class="texto_botones">
+            <p> Aquí podrás entrar a los registros ingresados en automóviles y conductores
+            <br>
+            <br>
+            </p>
+        </div>
+    </div>
+        <div class="prueba">
+        <div class="botones_general">
+            <button class="button is-rounded is-success is-focused is-dark"><%= link_to 'Automoviles', automoviles_path%></button>
+            <button class="button is-rounded is-success is-focused is-dark"><%= link_to 'Conductures', conductores_path%></button>
+        </div>
+        </div>
+    
+
+  </section>
+  </body>
+
+  <footer>
+    <h1>
+    Página hecha por Andres Alvarado
+    </h1>
+  </footer>
+</html>

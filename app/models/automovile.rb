@@ -1,0 +1,2 @@
+class Automovile < ApplicationRecord
+end

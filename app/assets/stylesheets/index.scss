@@ -1,0 +1,80 @@
+.bindex {
+    background-color: #171717;
+}
+
+div {
+    text-decoration: none;
+}
+
+.link_to {
+    text-decoration: none;
+}
+
+.container .title {
+    color: white;
+}
+
+.contenedor_sub .subtitle{
+    color: white;
+}
+
+h1  {
+    text-align: center;
+    color: white;
+}
+
+.texto_botones {
+    text-align: center;
+}
+
+.contenedor_texto {
+    color: white;
+    padding-top: 30px;
+}
+
+.contenedor_sub {
+    padding-top: 10px;
+}
+
+.subtitle {
+    color: white;
+    //background-color: #4D4D4D;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 30em;
+}
+
+
+footer {
+    background-color: #5F5F5F;
+}
+
+.cont_img {
+    text-align: center;
+}
+
+.botones_general {
+    width: num();
+    background-color:orange;
+    box-shadow: 1px;
+}
+
+
+@function var($num: 500px){
+    @return  $num*8;
+  }
+  
+
+
+footer {
+    font-size: num();
+
+}
+
+@import 'module';
+
+.principal {
+    font-size: triple($titulo);
+}

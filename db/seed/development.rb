@@ -1,0 +1,9 @@
+puts "CARGANDO SEED DE DEVELOPMENT"
+
+Conductore.create(name: 'Ando_seed')
+Conductore.create(name: 'Ando_seed')
+Conductore.create(name: 'Ando_seed')
+
+Automovile.create(model: '2000', brand: 'Toyota', driverid: '1', alias:'Ands', code:'2')
+Automovile.create(model: '2001', brand: 'Toyotaaaa', driverid: '1', alias:'Gallooooooo', code:'3')
+Automovile.create(model: '2002', brand: 'Toyotaaaaaaa', driverid: '1', alias:'Gallooooooooo', code:'4')

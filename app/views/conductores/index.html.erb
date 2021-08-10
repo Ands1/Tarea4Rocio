@@ -1,0 +1,39 @@
+<body class="bcondu">
+
+<nav>
+<li class="Automoviles"><%= link_to 'Automoviles', automoviles_path%>
+<li class= "Conductores"><%= link_to 'Conductures', conductores_path%>
+</nav>
+
+<p id="notice"><%= notice %></p>
+
+<h1>Conductores</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Code</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @conductores.each do |conductore| %>
+      <tr>
+        <td><%= conductore.name %></td>
+        <td><%= conductore.code %></td>
+        <td><%= link_to 'Show', conductore %></td>
+        <td><%= link_to 'Edit', edit_conductore_path(conductore) %></td>
+        <td><%= link_to 'Destroy', conductore, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<button class="button_condu"><%= link_to 'Conductures', conductores_path%></button>
+
+<br>
+<%= link_to 'New Conductore', new_conductore_path %>
+
+</body>

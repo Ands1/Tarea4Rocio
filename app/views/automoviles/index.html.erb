@@ -1,0 +1,47 @@
+
+
+
+<body class=bauto>
+<nav>
+<li class="Automoviles"><%= link_to 'Automoviles', automoviles_path%>
+<li class= "Conductores"><%= link_to 'Conductures', conductores_path%>
+</nav>
+
+<p id="notice"><%= notice %></p>
+
+<h1>Automoviles</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Brand</th>
+      <th>Driverid</th>
+      <th>Alias</th>
+      <th>Code</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @automoviles.each do |automovile| %>
+      <tr>
+        <td class="registro"><%= automovile.model %></td>
+        <td class="registro"><%= automovile.brand %></td>
+        <td class="registro"><%= automovile.driverid %></td>
+        <td class="registro"><%= automovile.alias %></td>
+        <td class="registro"><%= automovile.code %></td>
+        <td class="registro"><%= link_to 'Show', automovile %></td>
+        <td class="registro"><%= link_to 'Edit', edit_automovile_path(automovile) %></td>
+        <td class="registro"><%= link_to 'Destroy', automovile, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+<br>
+
+<%= link_to 'New Automovile', new_automovile_path %>
+
+</body>

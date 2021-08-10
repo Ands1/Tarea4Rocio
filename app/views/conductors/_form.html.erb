@@ -1,0 +1,28 @@
+<%= form_with(model: conductor) do |form| %>
+  <% if conductor.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(conductor.errors.count, "error") %> prohibited this conductor from being saved:</h2>
+
+      <ul>
+        <% conductor.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+  <%= form.label :code %>
+  <%= form.text_field :code %>
+  </div>
+
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

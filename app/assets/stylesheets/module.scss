@@ -1,0 +1,18 @@
+$fuente_tipo: 'Times New Roman', Times, serif;
+$fuente_titulo: 50px;
+$fuente_sub: 25px;
+$negro: black;
+$gris: #D3D3D3;
+$blanco: white;
+$rojo: red;
+$titulo: 15px;
+
+@mixin tabla_estilos{
+        font-family: $fuente_tipo;
+        border: 1px solid black;
+
+}
+
+@function triple($x) {
+        @return $x *3;
+}

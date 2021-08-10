@@ -1,0 +1,447 @@
+Started GET "/automoviles" for 127.0.0.1 at 2021-08-07 16:25:10 -0600
+Processing by AutomovilesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering automoviles/index.html.erb within layouts/application
+  [1m[36mAutomovile Load (16.3ms)[0m  [1m[34mSELECT "automoviles".* FROM "automoviles"[0m
+  Rendered automoviles/index.html.erb within layouts/application (Duration: 36.0ms | Allocations: 4679)
+[Webpacker] Compiling...
+Started GET "/cars" for 127.0.0.1 at 2021-08-07 16:25:16 -0600
+Started GET "/test" for 127.0.0.1 at 2021-08-07 16:25:19 -0600
+Started GET "/automoviles/new" for 127.0.0.1 at 2021-08-07 16:25:29 -0600
+Processing by AutomovilesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering automoviles/new.html.erb within layouts/application
+  Rendered automoviles/_form.html.erb (Duration: 19.2ms | Allocations: 5425)
+  Rendered automoviles/new.html.erb within layouts/application (Duration: 21.3ms | Allocations: 5764)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ands/Documentos/Ruby/NuevaTarea3/nuevatarea3/public/packs-test
+[Webpacker] Hash: 31b351f6be346d3a55f8
+Version: webpack 4.46.0
+Time: 2309ms
+Built at: 08/07/2021 4:25:35 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-dd998cb6b794ecb7e8af.js    125 KiB  application  [emitted] [immutable]  application
+js/application-dd998cb6b794ecb7e8af.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  384 bytes               [emitted]              
+Entrypoint application = js/application-dd998cb6b794ecb7e8af.js js/application-dd998cb6b794ecb7e8af.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+[Webpacker] Compiled all packs in /home/ands/Documentos/Ruby/NuevaTarea3/nuevatarea3/public/packs-test
+[Webpacker] Hash: 31b351f6be346d3a55f8
+Version: webpack 4.46.0
+Time: 6488ms
+Built at: 08/07/2021 4:25:35 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-dd998cb6b794ecb7e8af.js    125 KiB  application  [emitted] [immutable]  application
+js/application-dd998cb6b794ecb7e8af.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  384 bytes               [emitted]              
+Entrypoint application = js/application-dd998cb6b794ecb7e8af.js js/application-dd998cb6b794ecb7e8af.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 26888.4ms | Allocations: 47485)
+Completed 200 OK in 26924ms (Views: 26891.8ms | ActiveRecord: 22.2ms | Allocations: 61320)
+  Rendered layout layouts/application.html.erb (Duration: 6999.6ms | Allocations: 9487)
+Completed 200 OK in 7771ms (Views: 7001.6ms | ActiveRecord: 747.7ms | Allocations: 17628)
+Started GET "/assets/application-04c3ae28f07e1bf734223bf526d0cdd296440ef53bcb3f80b9f093c6bf02f747.css" for 127.0.0.1 at 2021-08-07 16:25:37 -0600
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (17.6ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_seed"], ["created_at", "2021-08-07 22:28:18.330247"], ["updated_at", "2021-08-07 22:28:18.330247"]]
+  [1m[36mTRANSACTION (18.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.5ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_seed"], ["created_at", "2021-08-07 22:28:18.369530"], ["updated_at", "2021-08-07 22:28:18.369530"]]
+  [1m[36mTRANSACTION (8.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.4ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_seed"], ["created_at", "2021-08-07 22:28:18.380399"], ["updated_at", "2021-08-07 22:28:18.380399"]]
+  [1m[36mTRANSACTION (8.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.6ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2000], ["brand", "Toyota"], ["driverid", 1], ["alias", "Ands"], ["created_at", "2021-08-07 22:28:18.408462"], ["updated_at", "2021-08-07 22:28:18.408462"], ["code", "2"]]
+  [1m[36mTRANSACTION (13.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.4ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2001], ["brand", "Toyotaaaa"], ["driverid", 1], ["alias", "Gallooooooo"], ["created_at", "2021-08-07 22:28:18.424937"], ["updated_at", "2021-08-07 22:28:18.424937"], ["code", "3"]]
+  [1m[36mTRANSACTION (8.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.5ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2002], ["brand", "Toyotaaaaaaa"], ["driverid", 1], ["alias", "Gallooooooooo"], ["created_at", "2021-08-07 22:28:18.435984"], ["updated_at", "2021-08-07 22:28:18.435984"], ["code", "4"]]
+  [1m[36mTRANSACTION (8.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.6ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_seed"], ["created_at", "2021-08-07 23:13:53.493330"], ["updated_at", "2021-08-07 23:13:53.493330"]]
+  [1m[36mTRANSACTION (39.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.4ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_seed"], ["created_at", "2021-08-07 23:13:53.536555"], ["updated_at", "2021-08-07 23:13:53.536555"]]
+  [1m[36mTRANSACTION (8.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.4ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_seed"], ["created_at", "2021-08-07 23:13:53.547473"], ["updated_at", "2021-08-07 23:13:53.547473"]]
+  [1m[36mTRANSACTION (8.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.7ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2000], ["brand", "Toyota"], ["driverid", 1], ["alias", "Ands"], ["created_at", "2021-08-07 23:13:53.571720"], ["updated_at", "2021-08-07 23:13:53.571720"], ["code", "2"]]
+  [1m[36mTRANSACTION (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.4ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2001], ["brand", "Toyotaaaa"], ["driverid", 1], ["alias", "Gallooooooo"], ["created_at", "2021-08-07 23:13:53.580928"], ["updated_at", "2021-08-07 23:13:53.580928"], ["code", "3"]]
+  [1m[36mTRANSACTION (8.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.4ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2002], ["brand", "Toyotaaaaaaa"], ["driverid", 1], ["alias", "Gallooooooooo"], ["created_at", "2021-08-07 23:13:53.592026"], ["updated_at", "2021-08-07 23:13:53.592026"], ["code", "4"]]
+  [1m[36mTRANSACTION (8.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.7ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_seed"], ["created_at", "2021-08-07 23:41:06.165171"], ["updated_at", "2021-08-07 23:41:06.165171"]]
+  [1m[36mTRANSACTION (49.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.5ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_seed"], ["created_at", "2021-08-07 23:41:06.218306"], ["updated_at", "2021-08-07 23:41:06.218306"]]
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.5ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_seed"], ["created_at", "2021-08-07 23:41:06.229449"], ["updated_at", "2021-08-07 23:41:06.229449"]]
+  [1m[36mTRANSACTION (8.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.9ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2000], ["brand", "Toyota"], ["driverid", 1], ["alias", "Ands"], ["created_at", "2021-08-07 23:41:06.255789"], ["updated_at", "2021-08-07 23:41:06.255789"], ["code", "2"]]
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.4ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2001], ["brand", "Toyotaaaa"], ["driverid", 1], ["alias", "Gallooooooo"], ["created_at", "2021-08-07 23:41:06.262808"], ["updated_at", "2021-08-07 23:41:06.262808"], ["code", "3"]]
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.4ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2002], ["brand", "Toyotaaaaaaa"], ["driverid", 1], ["alias", "Gallooooooooo"], ["created_at", "2021-08-07 23:41:06.273971"], ["updated_at", "2021-08-07 23:41:06.273971"], ["code", "4"]]
+  [1m[36mTRANSACTION (8.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.7ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_1"], ["created_at", "2021-08-07 23:41:44.674583"], ["updated_at", "2021-08-07 23:41:44.674583"]]
+  [1m[36mTRANSACTION (26.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.4ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_2"], ["created_at", "2021-08-07 23:41:44.704305"], ["updated_at", "2021-08-07 23:41:44.704305"]]
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.4ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_3"], ["created_at", "2021-08-07 23:41:44.715450"], ["updated_at", "2021-08-07 23:41:44.715450"]]
+  [1m[36mTRANSACTION (8.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.6ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2000], ["brand", "Toyota"], ["driverid", 1], ["alias", "Ands"], ["created_at", "2021-08-07 23:41:44.739101"], ["updated_at", "2021-08-07 23:41:44.739101"], ["code", "2"]]
+  [1m[36mTRANSACTION (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.5ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2001], ["brand", "Toyotaaaa"], ["driverid", 1], ["alias", "Gallooooooo"], ["created_at", "2021-08-07 23:41:44.748710"], ["updated_at", "2021-08-07 23:41:44.748710"], ["code", "3"]]
+  [1m[36mTRANSACTION (8.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.4ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2002], ["brand", "Toyotaaaaaaa"], ["driverid", 1], ["alias", "Gallooooooooo"], ["created_at", "2021-08-07 23:41:44.759814"], ["updated_at", "2021-08-07 23:41:44.759814"], ["code", "4"]]
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.7ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando"], ["created_at", "2021-08-07 23:44:56.844152"], ["updated_at", "2021-08-07 23:44:56.844152"]]
+  [1m[36mTRANSACTION (19.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.4ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Andoooooo"], ["created_at", "2021-08-07 23:44:56.867659"], ["updated_at", "2021-08-07 23:44:56.867659"]]
+  [1m[36mTRANSACTION (11.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.5ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Andooooooooooo"], ["created_at", "2021-08-07 23:44:56.882455"], ["updated_at", "2021-08-07 23:44:56.882455"]]
+  [1m[36mTRANSACTION (4.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.7ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2000], ["brand", "Toyota"], ["driverid", 1], ["alias", "Ands"], ["created_at", "2021-08-07 23:44:56.906609"], ["updated_at", "2021-08-07 23:44:56.906609"], ["code", "2"]]
+  [1m[36mTRANSACTION (13.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.5ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2001], ["brand", "Toyotaaaa"], ["driverid", 1], ["alias", "Gallooooooo"], ["created_at", "2021-08-07 23:44:56.923095"], ["updated_at", "2021-08-07 23:44:56.923095"], ["code", "3"]]
+  [1m[36mTRANSACTION (8.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.4ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2002], ["brand", "Toyotaaaaaaa"], ["driverid", 1], ["alias", "Gallooooooooo"], ["created_at", "2021-08-07 23:44:56.934155"], ["updated_at", "2021-08-07 23:44:56.934155"], ["code", "4"]]
+  [1m[36mTRANSACTION (8.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2021-08-07 17:45:15 -0600
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:45:22 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.6ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 36.2ms | Allocations: 9595)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 169.2ms | Allocations: 26653)
+Completed 200 OK in 208ms (Views: 172.8ms | ActiveRecord: 12.3ms | Allocations: 40474)
+Started DELETE "/conductores/1" for 127.0.0.1 at 2021-08-07 17:45:31 -0600
+Processing by ConductoresController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mConductore Load (0.5ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores" WHERE "conductores"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Destroy (0.4ms)[0m  [1m[31mDELETE FROM "conductores" WHERE "conductores"."id" = $1[0m  [["id", 1]]
+  [1m[36mTRANSACTION (26.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/conductores
+Completed 302 Found in 35ms (ActiveRecord: 27.9ms | Allocations: 1952)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:45:31 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.3ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1621)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3669)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.3ms | Allocations: 4292)
+Started DELETE "/conductores/2" for 127.0.0.1 at 2021-08-07 17:45:33 -0600
+Processing by ConductoresController#destroy as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores" WHERE "conductores"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Destroy (0.5ms)[0m  [1m[31mDELETE FROM "conductores" WHERE "conductores"."id" = $1[0m  [["id", 2]]
+  [1m[36mTRANSACTION (729.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/conductores
+Completed 302 Found in 735ms (ActiveRecord: 730.3ms | Allocations: 706)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:45:33 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.3ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1482)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3408)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms | Allocations: 3937)
+Started DELETE "/conductores/3" for 127.0.0.1 at 2021-08-07 17:45:34 -0600
+Processing by ConductoresController#destroy as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores" WHERE "conductores"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Destroy (0.4ms)[0m  [1m[31mDELETE FROM "conductores" WHERE "conductores"."id" = $1[0m  [["id", 3]]
+  [1m[36mTRANSACTION (30.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/conductores
+Completed 302 Found in 35ms (ActiveRecord: 31.3ms | Allocations: 696)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:45:34 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.2ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1380)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3306)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.2ms | Allocations: 3831)
+Started DELETE "/conductores/4" for 127.0.0.1 at 2021-08-07 17:45:35 -0600
+Processing by ConductoresController#destroy as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mConductore Load (0.5ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores" WHERE "conductores"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Destroy (0.4ms)[0m  [1m[31mDELETE FROM "conductores" WHERE "conductores"."id" = $1[0m  [["id", 4]]
+  [1m[36mTRANSACTION (26.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/conductores
+Completed 302 Found in 32ms (ActiveRecord: 27.4ms | Allocations: 706)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:45:35 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1278)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3204)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.4ms | Allocations: 3729)
+Started DELETE "/conductores/5" for 127.0.0.1 at 2021-08-07 17:45:37 -0600
+Processing by ConductoresController#destroy as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores" WHERE "conductores"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Destroy (0.4ms)[0m  [1m[31mDELETE FROM "conductores" WHERE "conductores"."id" = $1[0m  [["id", 5]]
+  [1m[36mTRANSACTION (25.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/conductores
+Completed 302 Found in 30ms (ActiveRecord: 26.2ms | Allocations: 692)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:45:37 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.2ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1175)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3099)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.2ms | Allocations: 3629)
+Started DELETE "/conductores/6" for 127.0.0.1 at 2021-08-07 17:45:38 -0600
+Processing by ConductoresController#destroy as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores" WHERE "conductores"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Destroy (0.5ms)[0m  [1m[31mDELETE FROM "conductores" WHERE "conductores"."id" = $1[0m  [["id", 6]]
+  [1m[36mTRANSACTION (580.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/conductores
+Completed 302 Found in 586ms (ActiveRecord: 581.5ms | Allocations: 677)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:45:38 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1073)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 2997)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.4ms | Allocations: 3533)
+Started DELETE "/conductores/7" for 127.0.0.1 at 2021-08-07 17:45:39 -0600
+Processing by ConductoresController#destroy as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mConductore Load (0.6ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores" WHERE "conductores"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Destroy (0.4ms)[0m  [1m[31mDELETE FROM "conductores" WHERE "conductores"."id" = $1[0m  [["id", 7]]
+  [1m[36mTRANSACTION (33.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/conductores
+Completed 302 Found in 40ms (ActiveRecord: 34.8ms | Allocations: 677)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:45:39 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 971)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 2895)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.4ms | Allocations: 3419)
+Started DELETE "/conductores/8" for 127.0.0.1 at 2021-08-07 17:45:40 -0600
+Processing by ConductoresController#destroy as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mConductore Load (0.3ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores" WHERE "conductores"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Destroy (0.5ms)[0m  [1m[31mDELETE FROM "conductores" WHERE "conductores"."id" = $1[0m  [["id", 8]]
+  [1m[36mTRANSACTION (25.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/conductores
+Completed 302 Found in 31ms (ActiveRecord: 26.2ms | Allocations: 675)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:45:40 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.3ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 869)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 2793)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.3ms | Allocations: 3317)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:47:52 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.3ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 867)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 2791)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.3ms | Allocations: 3301)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:47:56 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 867)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 2791)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.4ms | Allocations: 3303)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:05 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.9ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 38.7ms | Allocations: 8783)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 135.5ms | Allocations: 25924)
+Completed 200 OK in 173ms (Views: 138.9ms | ActiveRecord: 12.9ms | Allocations: 39750)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:06 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 927)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 2854)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.4ms | Allocations: 3468)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:07 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.3ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 874)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2800)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.3ms | Allocations: 3326)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:07 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 867)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 2791)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.4ms | Allocations: 3295)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:07 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 874)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2800)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.4ms | Allocations: 3320)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:07 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 867)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2791)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.4ms | Allocations: 3307)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:07 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.3ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 867)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2791)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.3ms | Allocations: 3309)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:07 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.3ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 867)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2791)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.3ms | Allocations: 3305)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:08 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.7ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 867)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 2791)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.7ms | Allocations: 3291)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:08 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.4ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 867)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 2791)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.4ms | Allocations: 3295)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.9ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_test1"], ["created_at", "2021-08-07 23:48:20.788952"], ["updated_at", "2021-08-07 23:48:20.788952"]]
+  [1m[36mTRANSACTION (20.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.5ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_test2"], ["created_at", "2021-08-07 23:48:20.813055"], ["updated_at", "2021-08-07 23:48:20.813055"]]
+  [1m[36mTRANSACTION (7.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mConductore Create (0.4ms)[0m  [1m[32mINSERT INTO "conductores" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Ando_test3"], ["created_at", "2021-08-07 23:48:20.823718"], ["updated_at", "2021-08-07 23:48:20.823718"]]
+  [1m[36mTRANSACTION (9.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.5ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2000], ["brand", "Toyota"], ["driverid", 1], ["alias", "Ands"], ["created_at", "2021-08-07 23:48:20.852247"], ["updated_at", "2021-08-07 23:48:20.852247"], ["code", "2"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.4ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2001], ["brand", "Toyotaaaa"], ["driverid", 1], ["alias", "Gallooooooo"], ["created_at", "2021-08-07 23:48:20.857026"], ["updated_at", "2021-08-07 23:48:20.857026"], ["code", "3"]]
+  [1m[36mTRANSACTION (8.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAutomovile Create (0.4ms)[0m  [1m[32mINSERT INTO "automoviles" ("model", "brand", "driverid", "alias", "created_at", "updated_at", "code") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["model", 2002], ["brand", "Toyotaaaaaaa"], ["driverid", 1], ["alias", "Gallooooooooo"], ["created_at", "2021-08-07 23:48:20.868505"], ["updated_at", "2021-08-07 23:48:20.868505"], ["code", "4"]]
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:26 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (1.0ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 46.4ms | Allocations: 9089)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 144.6ms | Allocations: 26295)
+Completed 200 OK in 184ms (Views: 148.5ms | ActiveRecord: 16.5ms | Allocations: 40126)
+Started GET "/conductores" for 127.0.0.1 at 2021-08-07 17:48:27 -0600
+Processing by ConductoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering conductores/index.html.erb within layouts/application
+  [1m[36mConductore Load (0.3ms)[0m  [1m[34mSELECT "conductores".* FROM "conductores"[0m
+  Rendered conductores/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1233)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3160)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.3ms | Allocations: 3762)

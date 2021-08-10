@@ -1,0 +1,42 @@
+// Place all the styles related to the conductores controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import 'module';
+
+h1{
+    @include tabla_estilos();
+    font-size: $fuente_titulo;
+    margin-bottom: 15px;
+}
+tr{
+    th{
+        @include tabla_estilos();
+        padding: 15px;
+        font-size: $fuente_titulo;
+
+    }
+    td{
+        color: $negro;
+    }
+}
+
+
+tr{
+    @include tabla_estilos();
+}
+
+th{
+    @include tabla_estilos();
+}
+
+
+.tbody tr   {
+    text-align: center;
+}
+
+
+.button {
+    width: 100px;
+    margin: 0 50px;
+}

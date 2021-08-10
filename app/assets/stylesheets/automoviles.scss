@@ -1,0 +1,44 @@
+// Place all the styles related to the Automoviles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import 'module';
+
+h1{
+    @include tabla_estilos();
+    font-size: $fuente_titulo;
+    margin-bottom: 15px;
+}
+tr{
+    th{
+        @include tabla_estilos();
+        padding: 15px;
+        font-size: $fuente_titulo;
+        color: $rojo;
+    }
+}
+
+
+tr{
+    color:$gris;
+    @include tabla_estilos();
+}
+
+th{
+    @include tabla_estilos();
+}
+
+
+
+.botones_general {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+//NAVBAR
+
+nav {
+    display: flex;
+    margin-left: 650px;
+}
